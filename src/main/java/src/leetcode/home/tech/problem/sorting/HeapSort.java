@@ -8,6 +8,7 @@ public class HeapSort {
         Integer[] nums = new Integer[]{4,8,3,7,0,2,5,3};
         HeapSort obj = new HeapSort();
         obj.maxHeap(nums,0,nums.length-1);
+        //we have a maxheap at this point
         int counter = nums.length-1;
         while(counter>=0){
             swap(nums,0,counter);
